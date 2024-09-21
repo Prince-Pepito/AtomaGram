@@ -1,0 +1,1592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet"
+          href="style.css">
+    <title>AtomaGram</title>
+    <link rel="shorcut" type="img/jpg" href="Photos/fav.jpg">
+</head>
+<body>
+
+  <!-- Our Header section Starts from here -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <a href="#">
+                      <img src=
+"Photos/IG.jpg" 
+                        alt="img1" height="30px">
+                    </a>
+                </div>
+                <div class="searchbar">
+                    <input type="text" 
+                           placeholder="Search">
+                    <img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20220609093658/search-200x200.png"
+                         height="18"
+                         alt="img2">
+                </div>
+                <div class="nav-links">
+                    <ul class="nav-group">
+                        <li class="nav-item">
+                            <a href="#">
+                                <i class="fas fa-home"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="">
+                                <i class="fab fa-facebook-messenger"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="">
+                                <i class="far fa-compass"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="">
+                                <i class="far fa-heart"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="action">
+                                <div class="profile" 
+                                     onclick="menuToggle()">
+                                    <img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20220609093221/g2-200x200.jpg" 
+                                        alt="user Avatar">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+  
+    <!-- Code for Showing the Status -->
+    <main>
+        <div class="container">
+            <div class="col-9">
+                <div class="statuses">
+                    <div class="status">
+                        <div class="image">
+                            <a href="Story1.html" target="_self" title="asd">
+                            <img src=
+"Photos/pfp1.jpg"
+                                 alt="img3"></a>
+                        </div>
+                    </div>
+                    <div class="status">
+                        <div class="image">
+                            <a href="Story2.html" target="_self" title="asd">
+                            <img src=
+"Photos/oc.jpg" 
+                                 alt="img4"></a>
+                        </div>
+                    </div>
+                    <div class="status">
+                        <div class="image">
+                            <a href="Story3.html" target="_self" title="asd">
+                            <img src=
+"Photos/Pe.JPG" 
+                                 alt="img5"></a>
+                        </div>
+                    </div>
+                    <div class="status">
+                        <div class="image">
+                            <a href="Story4.html" target="_self" title="asd">
+                            <img src=
+"Photos/pi.jpg" 
+                                 alt="img6"></a>
+                        </div>
+                    </div>
+                    <div class="status">
+                        <div class="image">
+                            <img src=
+"Photos/Tu.jpg" 
+                                 alt="img7">
+                        </div>
+                    </div>
+                    <div class="status">
+                        <div class="image">
+                            <img src=
+"Photos/Ce.jpg" 
+                                 alt="img8">
+                        </div>
+                    </div>
+                </div>
+              
+              <!-- Code for viewing the Post -->
+                <div class="card">
+                    <div class="top">
+                        <div class="userDetails">
+                            <div class="profilepic">
+                                <div class="profile_img">
+                                    <div class="image">
+                                        <img src=
+"Photos/pfp1.jpg" 
+                                            alt="img8">
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>Aliyah Ceelin Arao<br>
+                                  <span>Pag mahirap ang life mag "ayeee"</span>
+                          </h3>
+                        </div>
+                        <div>
+                            <span class="dot">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="imgBx">
+                        <img src=
+"Photos/1.jpg" 
+                            alt="post-1" class="cover">
+                    </div>
+                    <div class="bottom">
+                        <div class="actionBtns">
+                            <div class="left">
+                                <span class="heart" 
+                                      onclick="addlike()">
+                                    <span>
+                                        <svg aria-label="Like" 
+                                             color="#262626" 
+                                             fill="#262626" 
+                                             height="24" 
+                                             role="img"
+                                             viewBox="0 0 48 48" 
+                                             width="24">
+                                            <!-- Coordinate path  -->
+
+                                            <path
+                                                d="M34.6 6.1c5.7 0 10.4 5.2 10.4 
+                                                11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 
+                                                41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 
+                                                11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 
+                                                1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 
+                                                1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 
+                                                1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 
+                                                0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 
+                                                1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 
+                                                1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 
+                                                7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 
+                                                48 25 48 17.6c0-8-6-14.5-13.4-14.5z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                </span>
+                                <svg aria-label="Comment" 
+                                     class="_8-yf5 " 
+                                     color="#262626" 
+                                     fill="#262626" 
+                                     height="24"
+                                     role="img" 
+                                     viewBox="0 0 48 48" 
+                                     width="24">
+                                  
+                              <!-- Coordinate path  -->
+                                    <path clip-rule="evenodd"
+                                        d="M47.5 46.1l-2.8-11c1.8-3.3 2.8-7.1 2.8-11.1C47.5 
+                                        11 37 .5 24 .5S.5 11 .5 24 11 47.5 24 47.5c4 0 
+                                        7.8-1 11.1-2.8l11 2.8c.8.2 1.6-.6 1.4-1.4zm-3-22.1c0 
+                                        4-1 7-2.6 10-.2.4-.3.9-.2 1.4l2.1 
+                                        8.4-8.3-2.1c-.5-.1-1-.1-1.4.2-1.8 1-5.2 2.6-10 
+                                        2.6-11.4 0-20.6-9.2-20.6-20.5S12.7 3.5 24 3.5 
+                                        44.5 12.7 44.5 24z"
+                                        fill-rule="evenodd">
+                                  </path>
+                                </svg>
+                                <svg aria-label="Share Post" 
+                                     class="_8-yf5 " 
+                                     color="#262626" 
+                                     fill="#262626" 
+                                     height="24"
+                                     role="img"
+                                     viewBox="0 0 48 48" 
+                                     width="24">
+                                    <path
+                                        d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 
+                                        3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5 22.6c.1.6.6 
+                                        1 1.2 1.1h.2c.5 0 1-.3 
+                                        1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2 
+                                        6.1h35.5L18 18.7 5.2 6.1zm18.7 
+                                        33.6l-4.4-18.4L42.4 8.6 23.9 39.7z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="right">
+                                <svg aria-label="Save" 
+                                     class="_8-yf5 " 
+                                     color="#262626" 
+                                     fill="#262626" 
+                                     height="24"
+                                     role="img" 
+                                     viewBox="0 0 48 48" 
+                                     width="24">
+                                                            
+                                  <!-- Coordinate path  -->
+                                    <path
+                                        d="M43.5 48c-.4 0-.8-.2-1.1-.4L24 29 5.6 
+                                        47.6c-.4.4-1.1.6-1.6.3-.6-.2-1-.8-1-1.4v-45C3 .7 
+                                        3.7 0 4.5 0h39c.8 0 1.5.7 1.5 1.5v45c0 .6-.4 
+                                        1.2-.9 1.4-.2.1-.4.1-.6.1zM24 26c.8 
+                                        0 1.6.3 2.2.9l15.8 16V3H6v39.9l15.8-16c.6-.6 
+                                        1.4-.9 2.2-.9z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <p class="likes">203 likes</p>
+
+                        </a>
+                        <a href="#">
+                            <p class="message">
+                              <b>Aliyah Ceelin Arao </b></a><br>
+                                    In the early 5th century BCE Leucippus and Democritus 
+                                    (460–370 BC) argued that all “matter” was composed of small, 
+                                    finite particles that they called “atomos”, meaning “indivisible”, 
+                                    and the modern word “atom” is derived from this term there is another 
+                                    term for "atoms" which is "atomism" it was rooted in ancient greece that 
+                                    states the universe is made up of indestructible particles known as "atoms". 
+                                    However, these ideas were largely ignored at the time, as most philosophers 
+                                    favored the Aristotelian perspective. Aristotelian's conclusion that “matter” 
+                                    consisted of various combinations of the four “elements”—fire, earth, air, and 
+                                    water—and could be infinitely divided. These philosophers thought about atoms 
+                                    and “elements” as philosophical concepts, but apparently never considered 
+                                    performing experiments to test their ideas. 
+                                    
+                                    <br><br>🖼️: <a>https://pin.it/5XgMtgGAB</a>
+
+                                    <br><br> ✒️: https://uen.pressbooks.pub/introductorychemistry/chapter/history-of-atomic-structure/#:~:text=Early%20History%20of%20the%20Atom,is%20derived%20from%20this%20term. 
+                                    
+                            </p>
+                        </a>        
+                        <a href="#">
+                            <h4 class="comments">View all 32 comments</h4>
+                        </a>
+                        <a href="#">
+                            <h5 class="postTime">2 hours ago</h5>
+                        </a>
+                        <div class="addComments">
+                            <div class="reaction">
+                                <h3>
+                                  <i class="far fa-smile"></i>
+                                </h3>
+                            </div>
+                            <input type="text"
+                                   class="text"
+                                   placeholder="Add a comment...">
+                            <a href="#">Post</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="top">
+                        <div class="userDetails">
+                            <div class="profilepic">
+                                <div class="profile_img">
+                                    <div class="image">
+                                        <img src=
+"Photos/oc.jpg" 
+                                            alt="img8">
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>Jh Ocmer<br>
+                                  <span>Prinsesa ng P2</span>
+                          </h3>
+                        </div>
+                        <div>
+                            <span class="dot">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="imgBx">
+                        <img src=
+"Photos/TrojanHorse.jpg" 
+                            alt="post-1" class="cover">
+                    </div>
+                    <div class="bottom">
+                        <div class="actionBtns">
+                            <div class="left">
+                                <span class="heart" 
+                                      onclick="addlike()">
+                                    <span>
+                                        <svg aria-label="Like" 
+                                             color="#262626" 
+                                             fill="#262626" 
+                                             height="24" 
+                                             role="img"
+                                             viewBox="0 0 48 48" 
+                                             width="24">
+                                            <!-- Coordinate path  -->
+
+                                            <path
+                                                d="M34.6 6.1c5.7 0 10.4 5.2 10.4 
+                                                11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 
+                                                41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 
+                                                11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 
+                                                1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 
+                                                1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 
+                                                1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 
+                                                0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 
+                                                1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 
+                                                1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 
+                                                7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 
+                                                48 25 48 17.6c0-8-6-14.5-13.4-14.5z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                </span>
+                                <svg aria-label="Comment" 
+                                     class="_8-yf5 " 
+                                     color="#262626" 
+                                     fill="#262626" 
+                                     height="24"
+                                     role="img" 
+                                     viewBox="0 0 48 48" 
+                                     width="24">
+                                  
+                              <!-- Coordinate path  -->
+                                    <path clip-rule="evenodd"
+                                        d="M47.5 46.1l-2.8-11c1.8-3.3 2.8-7.1 2.8-11.1C47.5 
+                                        11 37 .5 24 .5S.5 11 .5 24 11 47.5 24 47.5c4 0 
+                                        7.8-1 11.1-2.8l11 2.8c.8.2 1.6-.6 1.4-1.4zm-3-22.1c0 
+                                        4-1 7-2.6 10-.2.4-.3.9-.2 1.4l2.1 
+                                        8.4-8.3-2.1c-.5-.1-1-.1-1.4.2-1.8 1-5.2 2.6-10 
+                                        2.6-11.4 0-20.6-9.2-20.6-20.5S12.7 3.5 24 3.5 
+                                        44.5 12.7 44.5 24z"
+                                        fill-rule="evenodd">
+                                  </path>
+                                </svg>
+                                <svg aria-label="Share Post" 
+                                     class="_8-yf5 " 
+                                     color="#262626" 
+                                     fill="#262626" 
+                                     height="24"
+                                     role="img"
+                                     viewBox="0 0 48 48" 
+                                     width="24">
+                                    <path
+                                        d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 
+                                        3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5 22.6c.1.6.6 
+                                        1 1.2 1.1h.2c.5 0 1-.3 
+                                        1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2 
+                                        6.1h35.5L18 18.7 5.2 6.1zm18.7 
+                                        33.6l-4.4-18.4L42.4 8.6 23.9 39.7z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="right">
+                                <svg aria-label="Save" 
+                                     class="_8-yf5 " 
+                                     color="#262626" 
+                                     fill="#262626" 
+                                     height="24"
+                                     role="img" 
+                                     viewBox="0 0 48 48" 
+                                     width="24">
+                                                            
+                                  <!-- Coordinate path  -->
+                                    <path
+                                        d="M43.5 48c-.4 0-.8-.2-1.1-.4L24 29 5.6 
+                                        47.6c-.4.4-1.1.6-1.6.3-.6-.2-1-.8-1-1.4v-45C3 .7 
+                                        3.7 0 4.5 0h39c.8 0 1.5.7 1.5 1.5v45c0 .6-.4 
+                                        1.2-.9 1.4-.2.1-.4.1-.6.1zM24 26c.8 
+                                        0 1.6.3 2.2.9l15.8 16V3H6v39.9l15.8-16c.6-.6 
+                                        1.4-.9 2.2-.9z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <p class="likes">203 likes</p>
+
+                        </a>
+                        <a href="#">
+                            <p class="message">
+                              <b>Jh Ocmer </b></a><br>
+                              The concept of the atom was revisited and elaborated upon by many scientists 
+                              and philosophers, including Galileo, Newton, Boyle, and Lavoisier (1661). One 
+                              of them that conducted an experiment is Boyle presented a discussion of atoms 
+                              in his “The Sceptical Chymist” (1661). However, John Dalton an English chemist 
+                              and meteorologist credited with the first modern atomic theory (1807). By studying 
+                              and expanding upon the works of Antoine Lavoisier and Joseph Proust (1803). As 
+                              explained in his “A New System of Chemical Philosophy” (1804) it is a rule of 
+                              stoichiometry that the law, which was based on Dalton’s observations of the reactions 
+                              of atmospheric gases, states that when elements form compounds, the proportions of 
+                              the elements in those chemical compounds can be expressed in small, whole-number ratios.
+                                <br><br>
+                              Dalton’s experiments (1803) with gases led to some of the earliest measurements of 
+                              atomic masses and a concept of atomic structure and reactivity. Dalton’s statement 
+                              (1803) in his atomic theory that all atoms of a given element are identical, The atoms 
+                              of different elements vary in mass and size, Atoms are indestructible, Chemical reactions 
+                              may result in their rearrangement but not their creation or destruction. 
+                                    
+                                    <br><br>🖼️: https://pin.it/1wXhmCN35 
+
+                                    <br><br> ✒️: https://chem.libretexts.org/Courses/Oregon_Institute_of_Technology/OIT%3A_CHE_101_-_Introduction_to_General_Chemistry/02%3A_Atoms_and_the_Periodic_Table/2.01%3A_Evolution_of_Atomic_Theory
+                                    
+                            </p>
+                        </a>        
+                        <a href="#">
+                            <h4 class="comments">View all 52 comments</h4>
+                        </a>
+                        <a href="#">
+                            <h5 class="postTime">6 hours ago</h5>
+                        </a>
+                        <div class="addComments">
+                            <div class="reaction">
+                                <h3>
+                                  <i class="far fa-smile"></i>
+                                </h3>
+                            </div>
+                            <input type="text"
+                                   class="text"
+                                   placeholder="Add a comment...">
+                            <a href="#">Post</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="top">
+                        <div class="userDetails">
+                            <div class="profilepic">
+                                <div class="profile_img">
+                                    <div class="image">
+                                        <img src=
+"Photos/pi.jpg" 
+                                            alt="img8">
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>John Andrei Piad<br>
+                                  <span>Love love love..</span>
+                          </h3>
+                        </div>
+                        <div>
+                            <span class="dot">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="imgBx">
+                        <img src=
+"Photos/33.jpg" 
+                            alt="post-1" class="cover">
+                    </div>
+                    <div class="bottom">
+                        <div class="actionBtns">
+                            <div class="left">
+                                <span class="heart" 
+                                      onclick="addlike()">
+                                    <span>
+                                        <svg aria-label="Like" 
+                                             color="#262626" 
+                                             fill="#262626" 
+                                             height="24" 
+                                             role="img"
+                                             viewBox="0 0 48 48" 
+                                             width="24">
+                                            <!-- Coordinate path  -->
+
+                                            <path
+                                                d="M34.6 6.1c5.7 0 10.4 5.2 10.4 
+                                                11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 
+                                                41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 
+                                                11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 
+                                                1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 
+                                                1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 
+                                                1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 
+                                                0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 
+                                                1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 
+                                                1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 
+                                                7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 
+                                                48 25 48 17.6c0-8-6-14.5-13.4-14.5z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                </span>
+                                <svg aria-label="Comment" 
+                                     class="_8-yf5 " 
+                                     color="#262626" 
+                                     fill="#262626" 
+                                     height="24"
+                                     role="img" 
+                                     viewBox="0 0 48 48" 
+                                     width="24">
+                                  
+                              <!-- Coordinate path  -->
+                                    <path clip-rule="evenodd"
+                                        d="M47.5 46.1l-2.8-11c1.8-3.3 2.8-7.1 2.8-11.1C47.5 
+                                        11 37 .5 24 .5S.5 11 .5 24 11 47.5 24 47.5c4 0 
+                                        7.8-1 11.1-2.8l11 2.8c.8.2 1.6-.6 1.4-1.4zm-3-22.1c0 
+                                        4-1 7-2.6 10-.2.4-.3.9-.2 1.4l2.1 
+                                        8.4-8.3-2.1c-.5-.1-1-.1-1.4.2-1.8 1-5.2 2.6-10 
+                                        2.6-11.4 0-20.6-9.2-20.6-20.5S12.7 3.5 24 3.5 
+                                        44.5 12.7 44.5 24z"
+                                        fill-rule="evenodd">
+                                  </path>
+                                </svg>
+                                <svg aria-label="Share Post" 
+                                     class="_8-yf5 " 
+                                     color="#262626" 
+                                     fill="#262626" 
+                                     height="24"
+                                     role="img"
+                                     viewBox="0 0 48 48" 
+                                     width="24">
+                                    <path
+                                        d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 
+                                        3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5 22.6c.1.6.6 
+                                        1 1.2 1.1h.2c.5 0 1-.3 
+                                        1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2 
+                                        6.1h35.5L18 18.7 5.2 6.1zm18.7 
+                                        33.6l-4.4-18.4L42.4 8.6 23.9 39.7z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="right">
+                                <svg aria-label="Save" 
+                                     class="_8-yf5 " 
+                                     color="#262626" 
+                                     fill="#262626" 
+                                     height="24"
+                                     role="img" 
+                                     viewBox="0 0 48 48" 
+                                     width="24">
+                                                            
+                                  <!-- Coordinate path  -->
+                                    <path
+                                        d="M43.5 48c-.4 0-.8-.2-1.1-.4L24 29 5.6 
+                                        47.6c-.4.4-1.1.6-1.6.3-.6-.2-1-.8-1-1.4v-45C3 .7 
+                                        3.7 0 4.5 0h39c.8 0 1.5.7 1.5 1.5v45c0 .6-.4 
+                                        1.2-.9 1.4-.2.1-.4.1-.6.1zM24 26c.8 
+                                        0 1.6.3 2.2.9l15.8 16V3H6v39.9l15.8-16c.6-.6 
+                                        1.4-.9 2.2-.9z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <p class="likes">203 likes</p>
+
+                        </a>
+                        <a href="#">
+                            <p class="message">
+                              <b>John Andrei Piad</b></a><br><br>
+                                    Democritus’ Idea Of Atom <br><br>Around 400 BC, a Greek philosopher 
+                                    named Democritus came up with a theory that everything in the world 
+                                    was made of tiny indestructible particles called “atomos”, which means 
+                                    “uncuttable”. He believed that the properties of materials depended on 
+                                    the type of atomos they were made of. For example, sour or sharp-tasting 
+                                    things were made of particles with pointy edges, sweet stuff was made of 
+                                    more rounded and smooth atoms, while metals were made of hard atoms. Apart 
+                                    from this shape misinterpretation, Democritus was pretty much on the right 
+                                    track concerning atomic composition dictating the property of a substance. 
+                                    However, this theory was largely discredited by Aristotle, the original social 
+                                    influencer, who believed that everything on the planet was made of four elements: 
+                                    earth, fire, water, and air.
+                                    
+                                    <br><br>🖼️: https://pin.it/1bRNhaUFk 
+
+                                    <br><br> ✒️: https://www.scienceabc.com/pure-sciences/how-has-the-atomic-model-evolved-over-the-years.html
+                                    
+                            </p>
+                        </a>        
+                        <a href="#">
+                            <h4 class="comments">View all 32 comments</h4>
+                        </a>
+                        <a href="#">
+                            <h5 class="postTime">2 hours ago</h5>
+                        </a>
+                        <div class="addComments">
+                            <div class="reaction">
+                                <h3>
+                                  <i class="far fa-smile"></i>
+                                </h3>
+                            </div>
+                            <input type="text"
+                                   class="text"
+                                   placeholder="Add a comment...">
+                            <a href="#">Post</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="top">
+                        <div class="userDetails">
+                            <div class="profilepic">
+                                <div class="profile_img">
+                                    <div class="image">
+                                        <img src=
+"Photos/Pe.JPG" 
+                                            alt="img8">
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>Mariben Pesimo<br>
+                                  <span>Ilaw sa Daan</span>
+                          </h3>
+                        </div>
+                        <div>
+                            <span class="dot">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="imgBx">
+                        <img src=
+"Photos/44.jpg" 
+                            alt="post-1" class="cover">
+                    </div>
+                    <div class="bottom">
+                        <div class="actionBtns">
+                            <div class="left">
+                                <span class="heart" 
+                                      onclick="addlike()">
+                                    <span>
+                                        <svg aria-label="Like" 
+                                             color="#262626" 
+                                             fill="#262626" 
+                                             height="24" 
+                                             role="img"
+                                             viewBox="0 0 48 48" 
+                                             width="24">
+                                            <!-- Coordinate path  -->
+
+                                            <path
+                                                d="M34.6 6.1c5.7 0 10.4 5.2 10.4 
+                                                11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 
+                                                41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 
+                                                11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 
+                                                1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 
+                                                1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 
+                                                1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 
+                                                0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 
+                                                1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 
+                                                1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 
+                                                7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 
+                                                48 25 48 17.6c0-8-6-14.5-13.4-14.5z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                </span>
+                                <svg aria-label="Comment" 
+                                     class="_8-yf5 " 
+                                     color="#262626" 
+                                     fill="#262626" 
+                                     height="24"
+                                     role="img" 
+                                     viewBox="0 0 48 48" 
+                                     width="24">
+                                  
+                              <!-- Coordinate path  -->
+                                    <path clip-rule="evenodd"
+                                        d="M47.5 46.1l-2.8-11c1.8-3.3 2.8-7.1 2.8-11.1C47.5 
+                                        11 37 .5 24 .5S.5 11 .5 24 11 47.5 24 47.5c4 0 
+                                        7.8-1 11.1-2.8l11 2.8c.8.2 1.6-.6 1.4-1.4zm-3-22.1c0 
+                                        4-1 7-2.6 10-.2.4-.3.9-.2 1.4l2.1 
+                                        8.4-8.3-2.1c-.5-.1-1-.1-1.4.2-1.8 1-5.2 2.6-10 
+                                        2.6-11.4 0-20.6-9.2-20.6-20.5S12.7 3.5 24 3.5 
+                                        44.5 12.7 44.5 24z"
+                                        fill-rule="evenodd">
+                                  </path>
+                                </svg>
+                                <svg aria-label="Share Post" 
+                                     class="_8-yf5 " 
+                                     color="#262626" 
+                                     fill="#262626" 
+                                     height="24"
+                                     role="img"
+                                     viewBox="0 0 48 48" 
+                                     width="24">
+                                    <path
+                                        d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 
+                                        3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5 22.6c.1.6.6 
+                                        1 1.2 1.1h.2c.5 0 1-.3 
+                                        1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2 
+                                        6.1h35.5L18 18.7 5.2 6.1zm18.7 
+                                        33.6l-4.4-18.4L42.4 8.6 23.9 39.7z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="right">
+                                <svg aria-label="Save" 
+                                     class="_8-yf5 " 
+                                     color="#262626" 
+                                     fill="#262626" 
+                                     height="24"
+                                     role="img" 
+                                     viewBox="0 0 48 48" 
+                                     width="24">
+                                                            
+                                  <!-- Coordinate path  -->
+                                    <path
+                                        d="M43.5 48c-.4 0-.8-.2-1.1-.4L24 29 5.6 
+                                        47.6c-.4.4-1.1.6-1.6.3-.6-.2-1-.8-1-1.4v-45C3 .7 
+                                        3.7 0 4.5 0h39c.8 0 1.5.7 1.5 1.5v45c0 .6-.4 
+                                        1.2-.9 1.4-.2.1-.4.1-.6.1zM24 26c.8 
+                                        0 1.6.3 2.2.9l15.8 16V3H6v39.9l15.8-16c.6-.6 
+                                        1.4-.9 2.2-.9z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <p class="likes">203 likes</p>
+
+                        </a>
+                        <a href="#">
+                            <p class="message">
+                              <b>Mariben Pesimo</b></a><br><br>
+                              The next stop in the ever-changing atomic theory came almost 
+                              2,000 years later, from a British chemist and meteorology enthusiast 
+                              named John Dalton. He conducted experiments where he mixed two gases 
+                              and observed their behavior. Most of the gases he tested existed independently 
+                              without being bothered by the presence of the other. However, he found 
+                              something different when nitric oxide was allowed to interact with atmospheric 
+                              oxygen. 36 measures of pure nitrous gas reacted with 100 measures of air to 
+                              give 80 measures of a new gas that was neither nitrous nor oxygenous. 
+                              <br><br>
+                              This piqued his curiosity, so he conducted the same experiment with different 
+                              volumes of gas. He observed that the gases reacted with each other only in a 
+                              fixed ratio, which gave rise to the law of multiple proportions and the theory 
+                              of atomism.
+                              <br><br>
+                              Dalton theorized that everything in this world was composed of atoms—tiny 
+                              indestructible solid spheres that were unique for every element. Atoms of 
+                              different elements combine to form different compounds and were rearranged 
+                              during chemical reactions. Even after 200 years, some of this concept remains 
+                              true.      
+                                    <br><br>🖼️: https://pin.it/5rqYVMhb9 
+
+                                    <br><br> ✒️: https://www.scienceabc.com/pure-sciences/how-has-the-atomic-model-evolved-over-the-years.html
+                            </p>
+                        </a>        
+                        <a href="#">
+                            <h4 class="comments">View all 32 comments</h4>
+                        </a>
+                        <a href="#">
+                            <h5 class="postTime">2 hours ago</h5>
+                        </a>
+                        <div class="addComments">
+                            <div class="reaction">
+                                <h3>
+                                  <i class="far fa-smile"></i>
+                                </h3>
+                            </div>
+                            <input type="text"
+                                   class="text"
+                                   placeholder="Add a comment...">
+                            <a href="#">Post</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="top">
+                        <div class="userDetails">
+                            <div class="profilepic">
+                                <div class="profile_img">
+                                    <div class="image">
+                                        <img src=
+"Photos/pfp1.jpg" 
+                                            alt="img8">
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>Aliyah Ceelin Arao<br>
+                                  <span>Pag mahirap ang life mag "ayeee"</span>
+                          </h3>
+                        </div>
+                        <div>
+                            <span class="dot">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="imgBx">
+                        <img src=
+"Photos/55.jpg" 
+                            alt="post-1" class="cover">
+                    </div>
+                    <div class="bottom">
+                        <div class="actionBtns">
+                            <div class="left">
+                                <span class="heart" 
+                                      onclick="addlike()">
+                                    <span>
+                                        <svg aria-label="Like" 
+                                             color="#262626" 
+                                             fill="#262626" 
+                                             height="24" 
+                                             role="img"
+                                             viewBox="0 0 48 48" 
+                                             width="24">
+                                            <!-- Coordinate path  -->
+
+                                            <path
+                                                d="M34.6 6.1c5.7 0 10.4 5.2 10.4 
+                                                11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 
+                                                41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 
+                                                11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 
+                                                1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 
+                                                1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 
+                                                1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 
+                                                0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 
+                                                1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 
+                                                1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 
+                                                7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 
+                                                48 25 48 17.6c0-8-6-14.5-13.4-14.5z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                </span>
+                                <svg aria-label="Comment" 
+                                     class="_8-yf5 " 
+                                     color="#262626" 
+                                     fill="#262626" 
+                                     height="24"
+                                     role="img" 
+                                     viewBox="0 0 48 48" 
+                                     width="24">
+                                  
+                              <!-- Coordinate path  -->
+                                    <path clip-rule="evenodd"
+                                        d="M47.5 46.1l-2.8-11c1.8-3.3 2.8-7.1 2.8-11.1C47.5 
+                                        11 37 .5 24 .5S.5 11 .5 24 11 47.5 24 47.5c4 0 
+                                        7.8-1 11.1-2.8l11 2.8c.8.2 1.6-.6 1.4-1.4zm-3-22.1c0 
+                                        4-1 7-2.6 10-.2.4-.3.9-.2 1.4l2.1 
+                                        8.4-8.3-2.1c-.5-.1-1-.1-1.4.2-1.8 1-5.2 2.6-10 
+                                        2.6-11.4 0-20.6-9.2-20.6-20.5S12.7 3.5 24 3.5 
+                                        44.5 12.7 44.5 24z"
+                                        fill-rule="evenodd">
+                                  </path>
+                                </svg>
+                                <svg aria-label="Share Post" 
+                                     class="_8-yf5 " 
+                                     color="#262626" 
+                                     fill="#262626" 
+                                     height="24"
+                                     role="img"
+                                     viewBox="0 0 48 48" 
+                                     width="24">
+                                    <path
+                                        d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 
+                                        3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5 22.6c.1.6.6 
+                                        1 1.2 1.1h.2c.5 0 1-.3 
+                                        1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2 
+                                        6.1h35.5L18 18.7 5.2 6.1zm18.7 
+                                        33.6l-4.4-18.4L42.4 8.6 23.9 39.7z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="right">
+                                <svg aria-label="Save" 
+                                     class="_8-yf5 " 
+                                     color="#262626" 
+                                     fill="#262626" 
+                                     height="24"
+                                     role="img" 
+                                     viewBox="0 0 48 48" 
+                                     width="24">
+                                                            
+                                  <!-- Coordinate path  -->
+                                    <path
+                                        d="M43.5 48c-.4 0-.8-.2-1.1-.4L24 29 5.6 
+                                        47.6c-.4.4-1.1.6-1.6.3-.6-.2-1-.8-1-1.4v-45C3 .7 
+                                        3.7 0 4.5 0h39c.8 0 1.5.7 1.5 1.5v45c0 .6-.4 
+                                        1.2-.9 1.4-.2.1-.4.1-.6.1zM24 26c.8 
+                                        0 1.6.3 2.2.9l15.8 16V3H6v39.9l15.8-16c.6-.6 
+                                        1.4-.9 2.2-.9z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <p class="likes">203 likes</p>
+
+                        </a>
+                        <a href="#">
+                            <p class="message">
+                              <b>Aliyah Ceelin Arao </b></a><br><br>
+                                Thompson Plum Pudding Model <br><br>
+                                Until the late 19th century, atoms were pictured as indivisible 
+                                particles; the first person to break this notion was the English 
+                                physicist J.J Thompson and his trusty cathode ray tube. Inside a 
+                                glass tube vacuum, a visible beam of particles or cathode rays was 
+                                generated by applying high voltage across metal electrodes. The stream 
+                                of particles produced from the metal deflected away from the negative 
+                                charge and tended towards the positive charge.
+                                <br><br>
+                                After repeating this experiment several times with other metals, he 
+                                came up with the first atomic model. His famous plum pudding model 
+                                described an atom as a particle made of a positively charged mass 
+                                (the pudding) with tiny negative charges embedded in it (like plums).
+                                    
+                                    <br><br>🖼️: https://pin.it/5x2gDBy4q 
+
+                                    <br><br> ✒️: https://www.scienceabc.com/pure-sciences/how-has-the-atomic-model-evolved-over-the-years.html 
+                                    
+                            </p>
+                        </a>        
+                        <a href="#">
+                            <h4 class="comments">View all 32 comments</h4>
+                        </a>
+                        <a href="#">
+                            <h5 class="postTime">2 hours ago</h5>
+                        </a>
+                        <div class="addComments">
+                            <div class="reaction">
+                                <h3>
+                                  <i class="far fa-smile"></i>
+                                </h3>
+                            </div>
+                            <input type="text"
+                                   class="text"
+                                   placeholder="Add a comment...">
+                            <a href="#">Post</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="top">
+                        <div class="userDetails">
+                            <div class="profilepic">
+                                <div class="profile_img">
+                                    <div class="image">
+                                        <img src=
+"Photos/pfp1.jpg" 
+                                            alt="img8">
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>Aliyah Ceelin Arao<br>
+                                  <span>Pag mahirap ang life mag "ayeee"</span>
+                          </h3>
+                        </div>
+                        <div>
+                            <span class="dot">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="imgBx">
+                        <img src=
+"Photos/66.jpg" 
+                            alt="post-1" class="cover">
+                    </div>
+                    <div class="bottom">
+                        <div class="actionBtns">
+                            <div class="left">
+                                <span class="heart" 
+                                      onclick="addlike()">
+                                    <span>
+                                        <svg aria-label="Like" 
+                                             color="#262626" 
+                                             fill="#262626" 
+                                             height="24" 
+                                             role="img"
+                                             viewBox="0 0 48 48" 
+                                             width="24">
+                                            <!-- Coordinate path  -->
+
+                                            <path
+                                                d="M34.6 6.1c5.7 0 10.4 5.2 10.4 
+                                                11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 
+                                                41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 
+                                                11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 
+                                                1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 
+                                                1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 
+                                                1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 
+                                                0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 
+                                                1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 
+                                                1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 
+                                                7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 
+                                                48 25 48 17.6c0-8-6-14.5-13.4-14.5z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                </span>
+                                <svg aria-label="Comment" 
+                                     class="_8-yf5 " 
+                                     color="#262626" 
+                                     fill="#262626" 
+                                     height="24"
+                                     role="img" 
+                                     viewBox="0 0 48 48" 
+                                     width="24">
+                                  
+                              <!-- Coordinate path  -->
+                                    <path clip-rule="evenodd"
+                                        d="M47.5 46.1l-2.8-11c1.8-3.3 2.8-7.1 2.8-11.1C47.5 
+                                        11 37 .5 24 .5S.5 11 .5 24 11 47.5 24 47.5c4 0 
+                                        7.8-1 11.1-2.8l11 2.8c.8.2 1.6-.6 1.4-1.4zm-3-22.1c0 
+                                        4-1 7-2.6 10-.2.4-.3.9-.2 1.4l2.1 
+                                        8.4-8.3-2.1c-.5-.1-1-.1-1.4.2-1.8 1-5.2 2.6-10 
+                                        2.6-11.4 0-20.6-9.2-20.6-20.5S12.7 3.5 24 3.5 
+                                        44.5 12.7 44.5 24z"
+                                        fill-rule="evenodd">
+                                  </path>
+                                </svg>
+                                <svg aria-label="Share Post" 
+                                     class="_8-yf5 " 
+                                     color="#262626" 
+                                     fill="#262626" 
+                                     height="24"
+                                     role="img"
+                                     viewBox="0 0 48 48" 
+                                     width="24">
+                                    <path
+                                        d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 
+                                        3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5 22.6c.1.6.6 
+                                        1 1.2 1.1h.2c.5 0 1-.3 
+                                        1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2 
+                                        6.1h35.5L18 18.7 5.2 6.1zm18.7 
+                                        33.6l-4.4-18.4L42.4 8.6 23.9 39.7z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="right">
+                                <svg aria-label="Save" 
+                                     class="_8-yf5 " 
+                                     color="#262626" 
+                                     fill="#262626" 
+                                     height="24"
+                                     role="img" 
+                                     viewBox="0 0 48 48" 
+                                     width="24">
+                                                            
+                                  <!-- Coordinate path  -->
+                                    <path
+                                        d="M43.5 48c-.4 0-.8-.2-1.1-.4L24 29 5.6 
+                                        47.6c-.4.4-1.1.6-1.6.3-.6-.2-1-.8-1-1.4v-45C3 .7 
+                                        3.7 0 4.5 0h39c.8 0 1.5.7 1.5 1.5v45c0 .6-.4 
+                                        1.2-.9 1.4-.2.1-.4.1-.6.1zM24 26c.8 
+                                        0 1.6.3 2.2.9l15.8 16V3H6v39.9l15.8-16c.6-.6 
+                                        1.4-.9 2.2-.9z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <p class="likes">203 likes</p>
+
+                        </a>
+                        <a href="#">
+                            <p class="message">
+                              <b>Aliyah Ceelin Arao </b></a><br><br>
+                                Rutherford’s Nuclear Model Of Atoms <br><br>
+                                After some initial resistance, this model became quite 
+                                popular in the scientific world, yet New Zealand-born Ernest 
+                                Rutherford was not convinced. In the early 1900s, radioactivity 
+                                was all the rage, and Rutherford discovered alpha, beta, and gamma 
+                                rays during his work on radioactive decay. He wanted to develop a 
+                                method to produce alpha particles and use that to probe into the 
+                                structure of an atom.
+                                    <br><br>
+                                He did what every physicist at the time did—he came up with an experiment. 
+                                The gold-foil experiment, also known as a Geiger–Marsden experiment, 
+                                consisted of a thin sheet of gold foil with a circular Zinc Sulfide-coated 
+                                screen behind it that would flash every time an alpha particle hit it. 
+                                Rutherford expected the particles to bullet through the foil and hit the 
+                                screen behind it. While most of the particles did behave as expected, some 
+                                were deflected at an angle greater than 90 degrees. Backed by his observations, 
+                                he came up with a new atomic model that disproved the previous one. He proposed 
+                                an atomic structure where most of the atom’s mass was concentrated in a positively 
+                                charged center (which he later named the nucleus, Latin for “nut”), around which the 
+                                electrons orbited like planets around the sun.
+                                    
+                                    <br><br>🖼️:  https://pin.it/4NWvO91KW
+
+                                    <br><br> ✒️: https://www.scienceabc.com/pure-sciences/how-has-the-atomic-model-evolved-over-the-years.html
+                                    
+                            </p>
+                        </a>        
+                        <a href="#">
+                            <h4 class="comments">View all 32 comments</h4>
+                        </a>
+                        <a href="#">
+                            <h5 class="postTime">2 hours ago</h5>
+                        </a>
+                        <div class="addComments">
+                            <div class="reaction">
+                                <h3>
+                                  <i class="far fa-smile"></i>
+                                </h3>
+                            </div>
+                            <input type="text"
+                                   class="text"
+                                   placeholder="Add a comment...">
+                            <a href="#">Post</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="top">
+                        <div class="userDetails">
+                            <div class="profilepic">
+                                <div class="profile_img">
+                                    <div class="image">
+                                        <img src=
+"Photos/pfp1.jpg" 
+                                            alt="img8">
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>Aliyah Ceelin Arao<br>
+                                  <span>Pag mahirap ang life mag "ayeee"</span>
+                          </h3>
+                        </div>
+                        <div>
+                            <span class="dot">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="imgBx">
+                        <img src=
+"Photos/77.jpg" 
+                            alt="post-1" class="cover">
+                    </div>
+                    <div class="bottom">
+                        <div class="actionBtns">
+                            <div class="left">
+                                <span class="heart" 
+                                      onclick="addlike()">
+                                    <span>
+                                        <svg aria-label="Like" 
+                                             color="#262626" 
+                                             fill="#262626" 
+                                             height="24" 
+                                             role="img"
+                                             viewBox="0 0 48 48" 
+                                             width="24">
+                                            <!-- Coordinate path  -->
+
+                                            <path
+                                                d="M34.6 6.1c5.7 0 10.4 5.2 10.4 
+                                                11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 
+                                                41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 
+                                                11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 
+                                                1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 
+                                                1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 
+                                                1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 
+                                                0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 
+                                                1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 
+                                                1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 
+                                                7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 
+                                                48 25 48 17.6c0-8-6-14.5-13.4-14.5z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                </span>
+                                <svg aria-label="Comment" 
+                                     class="_8-yf5 " 
+                                     color="#262626" 
+                                     fill="#262626" 
+                                     height="24"
+                                     role="img" 
+                                     viewBox="0 0 48 48" 
+                                     width="24">
+                                  
+                              <!-- Coordinate path  -->
+                                    <path clip-rule="evenodd"
+                                        d="M47.5 46.1l-2.8-11c1.8-3.3 2.8-7.1 2.8-11.1C47.5 
+                                        11 37 .5 24 .5S.5 11 .5 24 11 47.5 24 47.5c4 0 
+                                        7.8-1 11.1-2.8l11 2.8c.8.2 1.6-.6 1.4-1.4zm-3-22.1c0 
+                                        4-1 7-2.6 10-.2.4-.3.9-.2 1.4l2.1 
+                                        8.4-8.3-2.1c-.5-.1-1-.1-1.4.2-1.8 1-5.2 2.6-10 
+                                        2.6-11.4 0-20.6-9.2-20.6-20.5S12.7 3.5 24 3.5 
+                                        44.5 12.7 44.5 24z"
+                                        fill-rule="evenodd">
+                                  </path>
+                                </svg>
+                                <svg aria-label="Share Post" 
+                                     class="_8-yf5 " 
+                                     color="#262626" 
+                                     fill="#262626" 
+                                     height="24"
+                                     role="img"
+                                     viewBox="0 0 48 48" 
+                                     width="24">
+                                    <path
+                                        d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 
+                                        3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5 22.6c.1.6.6 
+                                        1 1.2 1.1h.2c.5 0 1-.3 
+                                        1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2 
+                                        6.1h35.5L18 18.7 5.2 6.1zm18.7 
+                                        33.6l-4.4-18.4L42.4 8.6 23.9 39.7z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="right">
+                                <svg aria-label="Save" 
+                                     class="_8-yf5 " 
+                                     color="#262626" 
+                                     fill="#262626" 
+                                     height="24"
+                                     role="img" 
+                                     viewBox="0 0 48 48" 
+                                     width="24">
+                                                            
+                                  <!-- Coordinate path  -->
+                                    <path
+                                        d="M43.5 48c-.4 0-.8-.2-1.1-.4L24 29 5.6 
+                                        47.6c-.4.4-1.1.6-1.6.3-.6-.2-1-.8-1-1.4v-45C3 .7 
+                                        3.7 0 4.5 0h39c.8 0 1.5.7 1.5 1.5v45c0 .6-.4 
+                                        1.2-.9 1.4-.2.1-.4.1-.6.1zM24 26c.8 
+                                        0 1.6.3 2.2.9l15.8 16V3H6v39.9l15.8-16c.6-.6 
+                                        1.4-.9 2.2-.9z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <p class="likes">203 likes</p>
+
+                        </a>
+                        <a href="#">
+                            <p class="message">
+                              <b>Aliyah Ceelin Arao </b></a><br><br>
+                                    Bohr’s Model Of Atoms <br><br>
+                                    A year after the publication of Rutherford’s atomic theory, Niels Bohr found a discrepancy in the model. If electrons were to orbit around a positively charged center, at some point, those electrons would lose their energy and collapse into the nucleus, making the atoms unstable. However, that wasn’t the case, as most atoms proved to be pretty stable (other than the radioactive ones).
+                                    <br><br>
+                                    This is where quantum physics came into the picture. Bohr used the concept of quantized energy to propose that electrons moved around the nucleus in fixed orbits or shells. The shells closer to the nucleus have lower energy, and the one farthest away has the highest. If an electron jumps to a lower energy orbit, it gives out the extra energy in the form of radiation, thereby maintaining atomic stability.
+                                    <br><br>
+                                    Even though Bohr’s model doesn’t hold true for complex multi-electron systems, this model is still the most popular representation of atomic structure in most textbooks.
+                                    
+                                    <br><br>🖼️: <a>https://pin.it/5XgMtgGAB</a>
+
+                                    <br><br> ✒️: https://uen.pressbooks.pub/introductorychemistry/chapter/history-of-atomic-structure/#:~:text=Early%20History%20of%20the%20Atom,is%20derived%20from%20this%20term. 
+                                    
+                            </p>
+                        </a>        
+                        <a href="#">
+                            <h4 class="comments">View all 32 comments</h4>
+                        </a>
+                        <a href="#">
+                            <h5 class="postTime">2 hours ago</h5>
+                        </a>
+                        <div class="addComments">
+                            <div class="reaction">
+                                <h3>
+                                  <i class="far fa-smile"></i>
+                                </h3>
+                            </div>
+                            <input type="text"
+                                   class="text"
+                                   placeholder="Add a comment...">
+                            <a href="#">Post</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="top">
+                        <div class="userDetails">
+                            <div class="profilepic">
+                                <div class="profile_img">
+                                    <div class="image">
+                                        <img src="./assets/images/user-3.jpeg" 
+                                            alt="img10">
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>Keshav Agarwal<br>
+                              <span>Kolkata, India</span>
+                            </h3>
+                        </div>
+                        <div>
+                            <span class="dot">
+                                <i class="fas fa-ellipsis-h"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="imgBx">
+                        <img src=
+"Photos/Sisyphus.jpg" 
+                            alt="post-1" 
+                            class="cover">
+                    </div>
+                    <div class="bottom">
+                        <div class="actionBtns">
+                            <div class="left">
+                                <span class="heart" 
+                                      onclick="addlike()">
+                                    <span>
+                                        <svg aria-label="Like" 
+                                             color="#262626" 
+                                             fill="#262626" 
+                                             height="24" 
+                                             role="img"
+                                             viewBox="0 0 48 48"
+                                             width="24">
+                                            <path
+                                                d="M34.6 6.1c5.7 0 10.4 5.2 10.4 
+                                                11.5 0 6.8-5.9 11-11.5 16S25 41.3 
+                                                24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 
+                                                11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 
+                                                4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 
+                                                2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 
+                                                0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 
+                                                3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 
+                                                1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 
+                                                6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 
+                                                2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 
+                                                29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z">
+                                            </path>
+                                        </svg>
+                                    </span>
+                                </span>
+                                <svg aria-label="Comment" 
+                                     class="_8-yf5 " 
+                                     color="#262626" 
+                                     fill="#262626" 
+                                     height="24"
+                                     role="img" 
+                                     viewBox="0 0 48 48" 
+                                     width="24">
+                                    <path clip-rule="evenodd"
+                                        d="M47.5 46.1l-2.8-11c1.8-3.3 2.8-7.1 
+                                        2.8-11.1C47.5 11 37 .5 24 .5S.5 11 .5 24 11 
+                                        47.5 24 47.5c4 0 7.8-1 11.1-2.8l11 2.8c.8.2 
+                                        1.6-.6 1.4-1.4zm-3-22.1c0 4-1 7-2.6 10-.2.4-.3.9-.2 
+                                        1.4l2.1 8.4-8.3-2.1c-.5-.1-1-.1-1.4.2-1.8 
+                                        1-5.2 2.6-10 2.6-11.4 0-20.6-9.2-20.6-20.5S12.7 
+                                        3.5 24 3.5 44.5 12.7 44.5 24z"
+                                        fill-rule="evenodd">
+                                  </path>
+                                </svg>
+                                <svg aria-label="Share Post"
+                                     class="_8-yf5 " 
+                                     color="#262626" 
+                                     fill="#262626" 
+                                     height="24"
+                                     role="img" 
+                                     viewBox="0 0 48 48" 
+                                     width="24">
+                                    <path
+                                        d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 
+                                        3.1.3 3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5 
+                                        22.6c.1.6.6 1 1.2 1.1h.2c.5 0 1-.3 
+                                        1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2 
+                                        6.1h35.5L18 18.7 5.2 6.1zm18.7 
+                                        33.6l-4.4-18.4L42.4 8.6 23.9 39.7z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="right">
+                                <svg aria-label="Save" 
+                                     class="_8-yf5 " 
+                                     color="#262626" 
+                                     fill="#262626" 
+                                     height="24"
+                                     role="img" 
+                                     viewBox="0 0 48 48" 
+                                     width="24">
+                                    <path
+                                        d="M43.5 48c-.4 0-.8-.2-1.1-.4L24 29 5.6 
+                                        47.6c-.4.4-1.1.6-1.6.3-.6-.2-1-.8-1-1.4v-45C3 .7 
+                                        3.7 0 4.5 0h39c.8 0 1.5.7 1.5 1.5v45c0 .6-.4 
+                                        1.2-.9 1.4-.2.1-.4.1-.6.1zM24 26c.8 0 
+                                        1.6.3 2.2.9l15.8 16V3H6v39.9l15.8-16c.6-.6 
+                                        1.4-.9 2.2-.9z">
+                                    </path>
+                                </svg>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <p class="likes">184 likes</p>
+                        </a>
+                        <a href="#">
+                            <p class="message">
+                              <b>Mayank</b> Nature <br><br>
+                              Aliyah Ceelin Schrödinger Atomic Model<br><br>
+                              No matter how much we try, there is no avoiding the complexities of quantum mechanics. With the establishment of the quantum behavior of entities like electrons, it became quite clear that Bohr’s atomic model did not satisfy the Heisenberg Uncertainty principle. According to the uncertainty principle, it is impossible to know the exact position and trajectory of electrons in an atom, which means that they cannot exist in fixed orbits, as Bohr hypothesized.
+                                <br><br>
+                                Combining the concept of wave-particle duality and the uncertainty principle, Erwin Schrödinger came up with the quantum mechanical model of an atom. In this model, the electrons do not revolve around the nucleus in circular orbits, but rather as electron clouds in an atomic orbital—a region inside the atom where the probability of finding an electron is the highest. He also formulated the Schrödinger wave equations, which would help us accurately calculate the energy of levels of electrons in an atom. This new and improved atomic model does not tell us where an electron is, but where it could be.
+                                
+                                <br><br>🖼️: https://pin.it/6IrDmFPK3 
+                                <br><br>✒️:https://www.scienceabc.com/pure-sciences/how-has-the-atomic-model-evolved-over-the-years.html
+                            </p>
+                        </a>
+                        <a href="#">
+                            <h4 class="comments">View all 25 comments</h4>
+                        </a>
+                        <a href="#">
+                            <h5 class="postTime">9 hours ago</h5>
+                        </a>
+                        <div class="addComments">
+                            <div class="reaction">
+                                <h3>
+                                  <i class="far fa-smile"></i>
+                               </h3>
+                            </div>
+                            <input type="text"
+                                   class="text" 
+                                   placeholder="Add a comment...">
+                            <a href="#">Post</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3">
+                <div class="card">
+                    <h4>Members of The Group</h4>
+                    <div class="top">
+                        <div class="userDetails">
+                            <div class="profilepic">
+                                <div class="profile_img">
+                                    <div class="image">
+                                        <img src=
+"Photos/pfp1.jpg" 
+                                            alt="img12">
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>Aliyah Ceelin Arao<br>
+                              <span>Follows You</span>
+                            </h3>
+                        </div>
+                        <div>
+                            <a href="#" 
+                               class="follow">follow
+                             </a>
+                        </div>
+                    </div>
+                    <div class="top">
+                        <div class="userDetails">
+                            <div class="profilepic">
+                                <div class="profile_img">
+                                    <div class="image">
+                                        <img src=
+"Photos/Pe.JPG" 
+                                            alt="img12">
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>Mariben Pesimo<br>
+                              <span>Follows Avril Lavigne</span>
+                            </h3>
+                        </div>
+                        <div>
+                            <a href="#" 
+                               class="follow">follow
+                             </a>
+                        </div>
+                    </div>                    
+                    <div class="top">
+                        <div class="userDetails">
+                            <div class="profilepic">
+                                <div class="profile_img">
+                                    <div class="image">
+                                        <img src=
+"Photos/oc.jpg" 
+                                            alt="img13">
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>Jh Ocmer<br>
+                              <span>Follows You</span>
+                           </h3>
+                        </div>
+                        <div>
+                            <a href="#" 
+                               class="follow">follow
+                           </a>
+                        </div>
+                    </div>
+                    <div class="top">
+                        <div class="userDetails">
+                            <div class="profilepic">
+                                <div class="profile_img">
+                                    <div class="image">
+                                        <img src=
+"Photos/pi.jpg" 
+                                            alt="img14">
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>John Andrei Piad<br>
+                                <span>Followed by John Rix Cenita</span>
+                            </h3>
+                        </div>
+                        <div>
+                            <a href="#" 
+                               class="follow">follow</a>
+                        </div>
+                    </div>
+                    <div class="top">
+                        <div class="userDetails">
+                            <div class="profilepic">
+                                <div class="profile_img">
+                                    <div class="image">
+                                        <img src=
+"Photos/Ce.jpg" 
+                                            alt="img15">
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>John Rix Cenita<br>
+                              <span>Follows You</span>
+                            </h3>
+                        </div>
+                        <div>
+                            <a href="#" 
+                               class="follow">follow
+                           </a>
+                        </div>
+                    </div>
+                    <div class="top">
+                        <div class="userDetails">
+                            <div class="profilepic">
+                                <div class="profile_img">
+                                    <div class="image">
+                                        <img src=
+"Photos/Tu.jpg" 
+                                            alt="img16" 
+                                            class="cover">
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>Jed Tuazon<br>
+                                <span>John Andrei Piad</span>
+                            </h3>
+                        </div>
+                        <div>
+                            <a href="#" 
+                               class="follow">follow
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+             <!-- Our Footer Section will start from Here -->
+                <div class="footer">
+                    <a class="footer-section" href="#">About</a>
+                    <a class="footer-section" href="#">Help</a>
+                    <a class="footer-section" href="#">API</a>
+                    <a class="footer-section" href="#">Jobs</a>
+                    <a class="footer-section" href="#">Privacy</a>
+                    <a class="footer-section" href="#">Terms</a>
+                    <a class="footer-section" href="#">Locations</a>
+                    <br>
+                    <a class="footer-section" href="#">Top Accounts</a>
+                    <a class="footer-section" href="#">Hashtag</a>
+                    <a class="footer-section" href="#">Language</a>
+                    <br><br>
+                    <span class="footer-section">
+                        &copy; HISTORICAL DEVELOPMENT OF ATOMS
+                    </span>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
